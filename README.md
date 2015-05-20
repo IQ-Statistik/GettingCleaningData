@@ -20,9 +20,10 @@ Next, the variable names for the variables in the test and training data are obt
 
 From the dataset created in step 4 a new dataset is created, containing only the average of each of the accerlerometer variables for each activity and subject. There are 6 activities * 30 subjects = 180 observations in this set, with data on activity + subject + 66 variables on the means of the originally selected means and standard deviation variables. The obtained data is stored in a file named "meandata.txt".
 
-In order to inspect the new dataset, it should be read in by using:
+In order to inspect the new dataset provided as part of the assignment, it should be downloaded to the computer,
+stored in the current working directory for R an then read in using:
 * newdata<-read.table("meandata.txt", header=TRUE)
-provided that meandata.txt has been stored in the current working directory.
+-provided that meandata.txt has been stored in the current working directory.
 * View(newdata)
 enables to inspect the created dataset.
 
